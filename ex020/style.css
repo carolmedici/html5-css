@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    background-color: rgb(55, 55, 157);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+            }
+div:hover{
+    background-color: green;
+    
+}
+div>p {
+    display: none;
+}
+div:hover>p {
+    display: block;
+}
+
+.d1:hover{
+    background-color: red;
+}
+.d2:hover {
+    background-color: yellow;
+}

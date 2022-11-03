@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*que porra*/
+
+main{
+    background-color: rgba(248, 189, 133, 0.764);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #f9644dc4;
+    color:#f0dd0c;
+     }
+
+.titulo{
+color: #DB3207;
+}
+
+.basico {
+color: red;
+
+}
+.intermediario{
+    color: green
+}
+.avancado{
+    color:blue
+}
