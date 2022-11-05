@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper004.jpg);
+        }
+
+        div.imagem-fundo{
+            background-color: lightcoral;
+            border: 3px solid rgb(83, 4, 6);
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            border-radius: 10px;
+
+        }
+
+        div#i1{
+            background-color: rgb(55, 55, 170);
+            
+        }
+
+        div#i2{
+            background-image: linear-gradient(to right, rgb(76, 76, 235), cyan);
+            
+        }
+
+        div#i3{
+            background-image: url("imagens/pattern003.png");
+        }
+
+        
+        #i3:hover{
+            background-image: none;
+            background-color: rgb(55, 55, 170); 
+        }
+
+        #i1:hover{
+            background-image: linear-gradient(to right, cyan, rgb(76, 76, 235)); 
+        }
+
+        #i2:hover{
+            
+            background-image: url("imagens/pattern003.png");
+        }
+        div{
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="imagem-fundo" id="i1"></div>
+    <div class="imagem-fundo" id="i2"></div>
+    <div class="imagem-fundo" id="i3"></div>
+</body>
+</html>
