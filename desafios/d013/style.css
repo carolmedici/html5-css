@@ -11,6 +11,7 @@
     --cor0: #bbd9f8;
     --cor1: #416c7e;
     --cor2: #8a939d80;
+    --cor3: #416c7e86;
  
     --fonte-padrao: 'Indie Flower', Arial, Helvetica, sans-serif;
     --fonte-cordel: 'cordel', cursive;
@@ -36,7 +37,8 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-size: 10vh;
+    font-size: 10vw;
+    font-variant: small-caps;
 
 }
 
@@ -61,41 +63,50 @@ a:visited{
     text-decoration: none;
 }
 
+body {
+    background-color: var(--cor3);
+}
+
 main{
     min-height: 200vh;
     background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 900px;
+    min-width: 300px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.237) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
    
 }
 
 section{
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 20px;
     font-size: 3.5vw;
+    text-align: center;
 }
-#poema{
-    line-height: 12px;
-    font: normal 2em var(--fonte-padrao);
-    padding-bottom: 1.8em;
-    
-    }
 
+#poema{
+    font: normal 2em var(--fonte-padrao);
+    
+}
 
 .p1{
     background-color: white;
     color: black;
+
 }
+
 .p2{
     background-image: url(imagens/cordel.jpg);
-      
-
 }
 
 .p3{
     background-image: url(imagens/cordel2.jpg);
-      
-
 }
 
 .imagem{
