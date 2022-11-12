@@ -10,9 +10,10 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         table{
-            width: 300px;
+            width: 500px;
             height: 300px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -23,7 +24,16 @@
             
         }
         th{
-            background-color: rgba(128, 128, 128, 0.353);
+            background-color: rgb(128, 128, 128);
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgba(119, 136, 153, 0.26);
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(128, 128, 128) ;
         }
     </style>
 </head>
@@ -34,6 +44,9 @@
                 <th>Item</th>
                 <th>Nome</th>
                 <th>Idade</th>
+                <th>Mais</th>
+                <th>Dados</th>
+                <th>Aqui</th>
             </thead>
         </tr>
         <tbody>
@@ -41,17 +54,243 @@
                 <td>Item 1</td>
                 <td>Nome 1</td>
                 <td>Idade 1</td>
+                <td>Outro 1</td>
+                <td>Dados 1</td>
+                <td>Coisa 1</td>
             </tr>
             <tr>
                 <td>Item 2</td>
                 <td>Nome 2</td>
                 <td>Idade 2</td>
+                <td>Outro 2</td>
+                <td>Dados 2</td>
+                <td>Coisa 2</td>
             </tr>
             <tr>
                 <td>Item 3</td>
                 <td>Nome 3</td>
                 <td>Idade 3</td>
+                <td>Outro 3</td>
+                <td>Dados 3</td>
+                <td>Coisa 3</td>
             </tr>
+            <tr>
+                <td>Item 4</td>
+                <td>Nome 4</td>
+                <td>Idade 4</td>
+                <td>Outro 4</td>
+                <td>Dados 4</td>
+                <td>Coisa 4</td>
+            </tr>
+            <tr>
+                <td>Item 5</td>
+                <td>Nome 5</td>
+                <td>Idade 5</td>
+                <td>Outro 5</td>
+                <td>Dados 5</td>
+                <td>Coisa 5</td>
+            </tr>
+            <tr>
+                <td>Item 6</td>
+                <td>Nome 6</td>
+                <td>Idade 6</td>
+                <td>Outro 6</td>
+                <td>Dados 6</td>
+                <td>Coisa 6</td>
+            </tr>
+            <tr>
+                <td>Item 7</td>
+                <td>Nome 7</td>
+                <td>Idade 7</td>
+                <td>Outro 7</td>
+                <td>Dados 7</td>
+                <td>Coisa 7</td>
+            </tr>
+            <tr>
+                <td>Item 8</td>
+                <td>Nome 8</td>
+                <td>Idade 8</td>
+                <td>Outro 8</td>
+                <td>Dados 8</td>
+                <td>Coisa 8</td>
+            </tr>
+            <tr>
+                <td>Item 9</td>
+                <td>Nome 9</td>
+                <td>Idade 9</td>
+                <td>Outro 9</td>
+                <td>Dados 9</td>
+                <td>Coisa 9</td>
+            </tr>
+            <tr>
+                <td>Item 10</td>
+                <td>Nome 10</td>
+                <td>Idade 10</td>
+                <td>Outro 10</td>
+                <td>Dados 10</td>
+                <td>Coisa 10</td>
+            </tr>
+            <tr>
+                <td>Item 11</td>
+                <td>Nome 11</td>
+                <td>Idade 11</td>
+                <td>Outro 11</td>
+                <td>Dados 11</td>
+                <td>Coisa 11</td>
+            </tr>
+            <tr>
+                <td>Item 12</td>
+                <td>Nome 12</td>
+                <td>Idade 12</td>
+                <td>Outro 12</td>
+                <td>Dados 12</td>
+                <td>Coisa 12</td>
+            </tr>
+            <tr>
+                <td>Item 13</td>
+                <td>Nome 13</td>
+                <td>Idade 13</td>
+                <td>Outro 13</td>
+                <td>Dados 13</td>
+                <td>Coisa 13</td>
+            </tr>
+            <tr>
+                <td>Item 14</td>
+                <td>Nome 14</td>
+                <td>Idade 14</td>
+                <td>Outro 14</td>
+                <td>Dados 14</td>
+                <td>Coisa 14</td>
+            </tr>
+            <tr>
+                <td>Item 15</td>
+                <td>Nome 15</td>
+                <td>Idade 15</td>
+                <td>Outro 15</td>
+                <td>Dados 15</td>
+                <td>Coisa 15</td>
+            </tr>
+            <tr>
+                <td>Item 16</td>
+                <td>Nome 16</td>
+                <td>Idade 16</td>
+                <td>Outro 16</td>
+                <td>Dados 16</td>
+                <td>Coisa 16</td>
+            </tr>
+            <tr>
+                <td>Item 17</td>
+                <td>Nome 17</td>
+                <td>Idade 17</td>
+                <td>Outro 17</td>
+                <td>Dados 17</td>
+                <td>Coisa 17</td>
+            </tr>
+            <tr>
+                <td>Item 18</td>
+                <td>Nome 18</td>
+                <td>Idade 18</td>
+                <td>Outro 18</td>
+                <td>Dados 18</td>
+                <td>Coisa 18</td>
+            </tr>
+            <tr>
+                <td>Item 19</td>
+                <td>Nome 19</td>
+                <td>Idade 19</td>
+                <td>Outro 19</td>
+                <td>Dados 19</td>
+                <td>Coisa 19</td>
+            </tr>
+            <tr>
+                <td>Item 20</td>
+                <td>Nome 20</td>
+                <td>Idade 20</td>
+                <td>Outro 20</td>
+                <td>Dados 20</td>
+                <td>Coisa 20</td>
+            </tr>
+            <tr>
+                <td>Item 21</td>
+                <td>Nome 21</td>
+                <td>Idade 21</td>
+                <td>Outro 21</td>
+                <td>Dados 21</td>
+                <td>Coisa 21</td>
+            </tr>
+            <tr>
+                <td>Item 22</td>
+                <td>Nome 22</td>
+                <td>Idade 22</td>
+                <td>Outro 22</td>
+                <td>Dados 22</td>
+                <td>Coisa 22</td>
+            </tr>
+            <tr>
+                <td>Item 23</td>
+                <td>Nome 23</td>
+                <td>Idade 23</td>
+                <td>Outro 23</td>
+                <td>Dados 23</td>
+                <td>Coisa 23</td>
+            </tr>
+            <tr>
+                <td>Item 24</td>
+                <td>Nome 24</td>
+                <td>Idade 24</td>
+                <td>Outro 24</td>
+                <td>Dados 24</td>
+                <td>Coisa 24</td>
+            </tr>
+            <tr>
+                <td>Item 25</td>
+                <td>Nome 25</td>
+                <td>Idade 25</td>
+                <td>Outro 25</td>
+                <td>Dados 25</td>
+                <td>Coisa 25</td>
+            </tr>
+            <tr>
+                <td>Item 26</td>
+                <td>Nome 26</td>
+                <td>Idade 26</td>
+                <td>Outro 26</td>
+                <td>Dados 26</td>
+                <td>Coisa 26</td>
+            </tr>
+            <tr>
+                <td>Item 27</td>
+                <td>Nome 27</td>
+                <td>Idade 27</td>
+                <td>Outro 27</td>
+                <td>Dados 27</td>
+                <td>Coisa 27</td>
+            </tr>
+            <tr>
+                <td>Item 28</td>
+                <td>Nome 28</td>
+                <td>Idade 28</td>
+                <td>Outro 28</td>
+                <td>Dados 28</td>
+                <td>Coisa 28</td>
+            </tr>
+            <tr>
+                <td>Item 29</td>
+                <td>Nome 29</td>
+                <td>Idade 29</td>
+                <td>Outro 29</td>
+                <td>Dados 29</td>
+                <td>Coisa 29</td>
+            </tr>
+            <tr>
+                <td>Item 30</td>
+                <td>Nome 30</td>
+                <td>Idade 30</td>
+                <td>Outro 30</td>
+                <td>Dados 30</td>
+                <td>Coisa 30</td>
+            </tr>
+
         </tbody>
     </table>
 </body>
