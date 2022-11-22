@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            width: 600px;
+            height: 300px;
+            border-collapse: collapse;
+            
+        }
+        caption{
+            font-size: 2em;
+            padding: 8px;
+        }
+        th, td{
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid black;
+            padding: 6px;
+        }
+       th{
+        background-color: rgba(211, 211, 211, 0.481);
+       }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Jogos Favoritos </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Jogos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Bruxas</th>
+                <td>Bellatrix Lestrange</td>
+                <td>Catan</td>
+                <td>Ubongo</td>
+                <td>Azul</td>
+            </tr>
+            <tr>
+                <td>Luna Lovegood</td>
+                <td>Dixit</td>
+                <td>Dobble</td>
+                <td>Haru Ichiban</td>
+            </tr>
+            <tr>
+                <td>Hermione Granger</td>
+                <td>7Wonders</td>
+                <td>Carcassonne</td>
+                <td>Cartógrafos</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Bruxos</th>
+                <td>Draco Malfoy</td>
+                <td>Tides of Times</td>
+                <td>BärenPark</td>
+                <td>Magic Maze</td>
+            </tr>
+            <tr>
+                <td>Harry Potter</td>
+                <td>Concept</td>
+                <td>Mysterium</td>
+                <td>Kingdomino</td>
+            </tr>
+            <tr>
+                <td>Rony Weasley</td>
+                <td>Dead of Winter</td>
+                <td>Quem foi?</td>
+                <td>Cangaço</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
